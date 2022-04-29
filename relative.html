@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Relative</title>
+	<style type="text/css">
+		h1{
+			text-align: center;
+			color: blue;
+			font-size: 40px;
+
+		}
+		div.relative_parent{
+			width: 1000px;
+			height: 400px;
+			background-color: lightgray;
+			/*position: relative;
+			top:50px;
+			left: 80px;*/
+		}
+		div.relative_parent p.relative{
+			position: relative;
+			top: 80px;
+			left: 80px; 
+			width:500px;
+			height: 200px;
+			background-color: cyan;
+
+		}
+		.absolute{
+			position: absolute;
+			top:  50px;
+			left:400px;
+			background-color: blue;
+			width: 500px;
+			height: 200px;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Relative position</h1>
+	<h2>Relative</h2>
+	<div class="relative_parent">
+		<p class="relative">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+	</div>
+	<p class="absolute">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</body>
+</html>
